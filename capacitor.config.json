@@ -1,0 +1,9 @@
+{
+  "appId": "com.timeexplorers.app",
+  "appName": "Time Explorers",
+  "webDir": "build",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+} 

@@ -1,3 +1,57 @@
+# Time Explorers Game
+
+An interactive time-learning game built with React and Tailwind CSS.
+
+## Features
+
+- Learn to tell time with an interactive clock interface
+- Test your knowledge with time-based questions and challenges
+- Beautiful UI with Tailwind CSS
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14.x or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone [repository-url]
+cd time-explorers-game
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn
+```
+
+3. Start the development server:
+
+```bash
+npm start
+# or
+yarn start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+## Technology Stack
+
+- React
+- Tailwind CSS
+- JavaScript
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +122,53 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Mobile App Setup
+
+You can run Time Explorers on mobile devices in several ways:
+
+### Option 1: Access via Mobile Browser
+
+1. Deploy the app to a hosting service like GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+2. Once deployed, you can access the game via any mobile browser at the published URL.
+
+### Option 2: Install as Progressive Web App (PWA)
+
+1. After deploying the app, visit the URL on your mobile device.
+2. On iOS: Tap the "Share" icon, then "Add to Home Screen".
+3. On Android: Tap the menu button, then "Add to Home Screen" or "Install App".
+
+### Option 3: Create Native Mobile Apps
+
+1. After installation of dependencies, initialize Capacitor:
+
+```bash
+npm run cap:init
+```
+
+2. Add platforms:
+
+```bash
+npm run cap:add:android  # For Android
+npm run cap:add:ios      # For iOS (requires macOS)
+```
+
+3. Build the project and sync with Capacitor:
+
+```bash
+npm run mobile:build
+```
+
+4. Open in native IDE:
+
+```bash
+npm run cap:open:android  # Opens in Android Studio
+npm run cap:open:ios      # Opens in Xcode (requires macOS)
+```
+
+5. Run the app on a connected device or emulator from the native IDE.
