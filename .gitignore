@@ -32,3 +32,6 @@ ios/
 
 # Production build
 build/
+
+# Cursor IDE
+.cursor/

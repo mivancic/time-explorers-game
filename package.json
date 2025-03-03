@@ -5,9 +5,9 @@
   "homepage": "https://mivancic.github.io/time-explorers-game",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.2.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
@@ -26,7 +26,10 @@
     "cap:sync": "npx cap sync",
     "cap:open:android": "npx cap open android",
     "cap:open:ios": "npx cap open ios",
-    "mobile:build": "npm run build && npm run cap:sync"
+    "mobile:build": "npm run build && npm run cap:sync",
+    "test:e2e": "playwright test",
+    "test:e2e:compat": "./run-e2e-tests.sh",
+    "test:e2e:simple": "npm run test:e2e:simple"
   },
   "eslintConfig": {
     "extends": [
@@ -51,8 +54,13 @@
     "@capacitor/cli": "^5.7.8",
     "@capacitor/core": "^5.7.8",
     "@capacitor/ios": "^5.7.8",
+    "@playwright/test": "^1.50.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
     "autoprefixer": "^10.4.14",
     "gh-pages": "^5.0.0",
+    "playwright": "^1.50.1",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
   }

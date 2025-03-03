@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import TimeExplorers from './TimeExplorers';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
+import { showTestAttributeMessage } from './utils/testAttributeCheck';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TimeExplorers />
+    <App />
   </React.StrictMode>
 );
 
@@ -21,3 +22,8 @@ serviceWorkerRegistration.register();
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// Show message about testing data-test attributes in development environment
+if (process.env.NODE_ENV !== 'production') {
+  showTestAttributeMessage();
+}
