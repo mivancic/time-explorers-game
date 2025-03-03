@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/time-explorers-game/static/css/main.2f56ab85.css",
-    "main.js": "/time-explorers-game/static/js/main.62e935f2.js",
+    "main.css": "/time-explorers-game/static/css/main.3716d20c.css",
+    "main.js": "/time-explorers-game/static/js/main.1e44d556.js",
     "static/js/453.85899f0b.chunk.js": "/time-explorers-game/static/js/453.85899f0b.chunk.js",
     "index.html": "/time-explorers-game/index.html",
-    "main.2f56ab85.css.map": "/time-explorers-game/static/css/main.2f56ab85.css.map",
-    "main.62e935f2.js.map": "/time-explorers-game/static/js/main.62e935f2.js.map",
+    "main.3716d20c.css.map": "/time-explorers-game/static/css/main.3716d20c.css.map",
+    "main.1e44d556.js.map": "/time-explorers-game/static/js/main.1e44d556.js.map",
     "453.85899f0b.chunk.js.map": "/time-explorers-game/static/js/453.85899f0b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f56ab85.css",
-    "static/js/main.62e935f2.js"
+    "static/css/main.3716d20c.css",
+    "static/js/main.1e44d556.js"
   ]
 }
